@@ -26492,6 +26492,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.cnds.CompareY,
 	cr.system_object.prototype.exps.random,
+	cr.plugins_.Audio.prototype.acts.SetMuted,
 	cr.behaviors.Bullet.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.cnds.IsOutsideLayout,
 	cr.plugins_.video.prototype.acts.SetVolume
